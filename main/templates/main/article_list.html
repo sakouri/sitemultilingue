@@ -7,13 +7,23 @@
 <body>
     <h1>{% trans "List of Articles" %}</h1>
     <ul>
-        {% for article in articles %}
+<!--       {% for article in articles %} --> 
             <li>
-                <h2>{{ article.title }}</h2>
-                <p>{% trans "Published on" %}: {{ article.publication_date }}</p>
-                <p>{{ article.content }}</p>
+                <h2>{% trans "Current Trends in Web Development" %}</h2>
+                <p>{% trans "Published on" %}: {{ articles.0.publication_date }}</p>
+                <p>{% trans "With the rapid evolution of web technologies, it's crucial to keep abreast of the latest trends. In 2024, we're seeing massive adoption of JavaScript frameworks such as React and Vue.js, enabling a fluid, responsive user experience. Progressive application development (PWA) is also gaining in popularity, offering advanced functionality and improved performance. Finally, the use of artificial intelligence and machine learning in web development is opening up exciting new possibilities."%}</p>
             </li>
-        {% endfor %}
+            <li>
+                <h2>{% trans "Complete Guide to Mobile Application Development" %}</h2>
+                <p>{% trans "Published on" %}: {{ articles.1.publication_date }}</p>
+                <p>{% trans "Mobile app development has become a must for companies wishing to reach a wider audience. In this article, we explore the various stages involved in creating a mobile app, from ideation to publication on the stores. We discuss technology choices, comparing native development (Swift for iOS, Kotlin for Android) with cross-platform frameworks like Flutter and React Native. We also look at best practices for optimizing performance and guaranteeing a quality user experience." %}</p>
+            </li>
+            <li>
+                <h2>{% trans "The Importance of Security in Software Development" %}</h2>
+                <p>{% trans "Published on" %}: {{ articles.2.publication_date }}</p>
+                <p>{% trans "With cyber-attacks on the rise, application security has become a top priority. This article examines the main security measures that developers need to incorporate right from the design phase. We cover key concepts such as authentication, session management, and protection against common attacks like SQL injections and cross-site scripting (XSS). By taking a proactive approach, developers can minimize risks and protect sensitive user data." %}</p>
+            </li>
+<!--       {% endfor %} --> 
     </ul>
     <!-- Ajout de la fonctionnalité de changement de langue -->
     <h2>{% trans "Change language" %}</h2>

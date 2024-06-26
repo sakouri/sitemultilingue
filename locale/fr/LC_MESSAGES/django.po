@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-26 14:13+0200\n"
+"POT-Creation-Date: 2024-06-26 15:25+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,15 +23,69 @@ msgstr ""
 msgid "List of Articles"
 msgstr "Liste des Articles"
 
+#: .\main\templates\main\article_list.html:12
+msgid "Current Trends in Web Development"
+msgstr "Les Tendances Actuelles en Développement Web"
+
 #: .\main\templates\main\article_list.html:13
+#: .\main\templates\main\article_list.html:18
+#: .\main\templates\main\article_list.html:23
 msgid "Published on"
 msgstr "Publié le"
 
+#: .\main\templates\main\article_list.html:14
+msgid ""
+"With the rapid evolution of web technologies, it's crucial to keep abreast "
+"of the latest trends. In 2024, we're seeing massive adoption of JavaScript "
+"frameworks such as React and Vue.js, enabling a fluid, responsive user "
+"experience. Progressive application development (PWA) is also gaining in "
+"popularity, offering advanced functionality and improved performance. "
+"Finally, the use of artificial intelligence and machine learning in web "
+"development is opening up exciting new possibilities."
+msgstr ""
+"Avec l'évolution rapide des technologies web, il est crucial de se tenir au "
+"courant des dernières tendances. En 2024, nous observons une adoption "
+"massive de frameworks JavaScript tels que React et Vue.js, permettant une "
+"expérience utilisateur fluide et réactive. Le développement d'applications "
+"progressives (PWA) gagne également en popularité, offrant des "
+"fonctionnalités avancées et une meilleure performance. Enfin, l'utilisation "
+"de l'intelligence artificielle et de l'apprentissage automatique dans le "
+"développement web ouvre de nouvelles possibilités passionnantes."
+
+#: .\main\templates\main\article_list.html:17
+msgid "Complete Guide to Mobile Application Development"
+msgstr "Guide Complet sur le Développement d'Applications Mobiles"
+
 #: .\main\templates\main\article_list.html:19
+msgid ""
+"Mobile app development has become a must for companies wishing to reach a "
+"wider audience. In this article, we explore the various stages involved in "
+"creating a mobile app, from ideation to publication on the stores. We "
+"discuss technology choices, comparing native development (Swift for iOS, "
+"Kotlin for Android) with cross-platform frameworks like Flutter and React "
+"Native. We also look at best practices for optimizing performance and "
+"guaranteeing a quality user experience."
+msgstr "Le développement d'applications mobiles est devenu incontournable pour les entreprises souhaitant atteindre un public plus large. Dans cet article, nous explorons les différentes étapes de création d'une application mobile, de l'idéation à la publication sur les stores. Nous discutons des choix de technologies, en comparant le développement natif (Swift pour iOS, Kotlin pour Android) avec les frameworks cross-platform comme Flutter et React Native. Nous abordons également les bonnes pratiques pour optimiser la performance et garantir une expérience utilisateur de qualité."
+
+#: .\main\templates\main\article_list.html:22
+msgid "The Importance of Security in Software Development"
+msgstr "L'Importance de la Sécurité dans le Développement Logiciel"
+
+#: .\main\templates\main\article_list.html:24
+msgid ""
+"With cyber-attacks on the rise, application security has become a top "
+"priority. This article examines the main security measures that developers "
+"need to incorporate right from the design phase. We cover key concepts such "
+"as authentication, session management, and protection against common attacks "
+"like SQL injections and cross-site scripting (XSS). By taking a proactive "
+"approach, developers can minimize risks and protect sensitive user data."
+msgstr "Avec la montée en puissance des cyberattaques, la sécurité des applications est devenue une priorité absolue. Cet article examine les principales mesures de sécurité que les développeurs doivent intégrer dès la phase de conception. Nous abordons des concepts clés tels que l'authentification, la gestion des sessions, et la protection contre les attaques courantes comme les injections SQL et les cross-site scripting (XSS). En adoptant une approche proactive, les développeurs peuvent minimiser les risques et protéger les données sensibles des utilisateurs."
+
+#: .\main\templates\main\article_list.html:29
 msgid "Change language"
 msgstr "Changer la langue"
 
-#: .\main\templates\main\article_list.html:32
+#: .\main\templates\main\article_list.html:42
 msgid "Change"
 msgstr "Changer"
 
